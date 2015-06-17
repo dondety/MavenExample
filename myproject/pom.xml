@@ -5,6 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MyProject</name>
    <packaging>jar</packaging>
+   
+   
+
+<dependencies>
+        <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.9</version>
+</dependency>
+</dependencies>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,6 +31,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <mainClass>com.ram.App</mainClass>
+                          
                         </manifest>
                     </archive>
                 </configuration>
